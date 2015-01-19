@@ -1,4 +1,4 @@
-values = open('59 cipher.txt').read().split(',')
+values = open('59_cipher.txt').read().split(',')
 values = [int(i) for i in values]
 #values = values[0:50]
 '''def convert(li, term_choice):
