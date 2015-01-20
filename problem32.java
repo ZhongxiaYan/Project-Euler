@@ -1,5 +1,5 @@
 
-public class problem32 {
+public class Problem32 {
 
 	/**
 	 * @param args
