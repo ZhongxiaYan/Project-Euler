@@ -1,37 +1,6 @@
-values = open('59_cipher.txt').read().split(',')
+values = open('Problem59_cipher.txt').read().split(',')
 values = [int(i) for i in values]
-#values = values[0:50]
-'''def convert(li, term_choice):
-    while term_choice < len(li):
-        #li[term_choice] = li[term_choice] + shift
-        #print(term_choice)
-        while li[term_choice] < 65:
-            i = term_choice%3
-            while i < len(li):
-                li[i] = li[i] + 1
-                i = i + 3
-                #li[i] = li[i] + 1
-                #i = i + 1
-        term_choice = term_choice + 3
-    return li
-def convert_all(li):
-    li = convert(li, 0)
-    li = convert(li, 1)
-    li = convert(li, 2)
-    return li
-def fine_tune(li, term_choice, shift):
-    while term_choice < len(li):
-        li[term_choice] = li[term_choice] + shift
-        term_choice = term_choice + 3
-    #print(li[0], li[1], li[2], li[3], li[4], li[5], li[6])
-    return li
-values = convert_all(values)
-values = fine_tune(values, 0, 0)
-values = fine_tune(values, 1, -2)
-values = fine_tune(values, 2, 0)
-s = ''.join([chr(i) for i in values])
-char = [chr(i) for i in values]
-print(s, char)'''
+
 def fine_tune(li, term_choice, key):
     while term_choice < len(li):
         li[term_choice] = li[term_choice]^key

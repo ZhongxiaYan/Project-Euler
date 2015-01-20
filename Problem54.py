@@ -1,4 +1,4 @@
-original = open('54_poker.txt').read().split()
+original = open('Problem54_poker.txt').read().split()
 def sort(x, n=10):
     return [x[i: i +n] for i in range(0, len(x), n)]
 tens = sort(original)

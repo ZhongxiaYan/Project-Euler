@@ -3,7 +3,7 @@
 
 int main() {
     FILE *keys;
-    keys = fopen("79_keylog.txt", "r");
+    keys = fopen("Problem79_keylog.txt", "r");
     if (keys == NULL) {
         printf("Error, unable to open file");
         return 0;

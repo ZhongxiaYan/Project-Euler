@@ -14,7 +14,7 @@ int main() {
 
     FILE *fp;
 
-    fp = fopen("67_triangle.txt", "r");
+    fp = fopen("Problem67_triangle.txt", "r");
     
     int row;
     int column;
