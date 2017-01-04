@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-int min(int x, int y) {
-    return (x > y) ? y : x;
-}
-
 const unsigned long long N = 1000000000;
 // const unsigned long long N = 100;
 
